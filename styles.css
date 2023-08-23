@@ -1,21 +1,22 @@
 .wrapper{
     display: flex;
     height: auto;
-    max-height:600px;
-    max-width: 600px;
+    max-height:2000px;
+    max-width: 2000px;
     align-self: center;
     
 }
 
 .wrapper img{
-    max-width: 50%;
+    flex: 1;
+    width: 25%;
     height: auto;
 }
 
 .flex-container{
     align-items: center;
-    background: linear-gradient(to right, #4947c5, #ffffff);
+    background: linear-gradient(to right, #4aa9d1, #99d1e9);
     justify-content: center;
-    
+    flex: 1;
 
 }
