@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    height: auto;
+    max-height: min-content;
+    
+}
+
+.wrapper img{
+    max-width: 50%;
+    height: auto;
+}
+
+.flex-container{
+    align-items: center;
+    background: linear-gradient(to right, #4947c5, #ffffff);
+    justify-content: center;
+    
+
+}
